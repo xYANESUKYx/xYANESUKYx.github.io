@@ -1,0 +1,380 @@
+/***************************************************************************************************************************/
+/*CABECERA*/
+/***************************************************************************************************************************/
+header {background-color: #a7a6a5; margin: 10px 0px -25px 0px; height: 115px;}
+header > h1 {position: absolute; left: 0; right: 0; top: -8px; color: black;  text-align: center; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; font-size: 50PX;}
+#SiluetaCapibara1 {width: 75px; position: absolute; left: 30; top: 19px; transform: scaleX(-1);}
+#SiluetaCapibara2 {width: 75px; position: absolute; right: 30; top: 19px;}
+/***************************************************************************************************************************/
+/*CABECERA*/
+/***************************************************************************************************************************/
+
+
+/***************************************************************************************************************************/
+/*MENU DE NAVEGACION*/
+/***************************************************************************************************************************/
+nav {background-color: #303030; margin: 0px 0px -2px 0px; height: 40px;}
+nav > ul {margin-top: 10px; position: absolute; left: 180px; align-items: center; width: 900px;}
+nav > ul > a > li {display:inline; border-radius: 100px; padding: 7px; margin-left: 50px; padding-top: 5px;}
+nav > ul > a {text-decoration: none; color: #FFFFFF;}
+nav > ul > a > li:hover {background-color: #b1ada3;}
+#x {font-weight: bold; border: solid white;}
+/***************************************************************************************************************************/
+/*MENU DE NAVEGACION*/
+/***************************************************************************************************************************/
+
+body {background-color: #d5d1c8;}
+section {background-color: #d5d1c8; height: 80%;}
+
+
+/***************************************************************************************************************************/
+/*FOOTER*/
+/***************************************************************************************************************************/
+footer {position:fixed; left: 0px; right: 0px; bottom:0px; background-color: #73706e; height: 25px;}
+footer > p {font-size: 13px;}
+#copyright {float: left; margin-top: 4px; margin-left: 35px;}
+#instagram {float: right; margin-right: 50px; margin-top: 4px;}
+/***************************************************************************************************************************/
+/*FOOTER*/
+/***************************************************************************************************************************/
+
+
+/***************************************************************************************************************************/
+/*ESTILISMO*/
+/***************************************************************************************************************************/
+
+/*CAPIBARA*/
+#SectionEstilismo {background-color: #d8fcfc;}
+#Capibara {background-color: #f1efed; border: solid #f7c4d2; margin: 20px 100px 10px 40px; width: 350px; height: 420px; background-image: url(../IMG/EstilismoFondo1.png);}
+#ImagenCapibara { width: 100%; margin: 0 auto; margin-top: 30px; transform: scaleX(-1); z-index: 1;}
+
+#Complementos {width: 65%; background-color: #f1efed; padding-top: 20px; border: solid #f7c4d2; margin: -435px 50px 10px 50px; height: 400px; float: right; background: url(../IMG/EstilismoFondo1.png); background-size: 3000px;}
+
+/*Sombreros*/
+#Sombreros > h2 {float: left; margin-top: 10px;}
+#Sombreros > li {list-style: none; display:inline; padding-left: 40px; margin-top: 20px;}
+
+#Sombrero1 {width: 0px;}
+#ImagenSombrero1 {display:none; width: 100px;  margin-top: -370px; margin-left: 138px; transform: scaleX(-1); float: left;}
+#Sombrero1:checked ~ #ImagenSombrero1 {display:block; z-index: -1;}
+
+#Sombrero2 {width: 0px;}
+#ImagenSombrero2 {display:none; width: 200px;  margin-top: -407px; margin-left: 110px; transform: scaleX(-1); float: left;}
+#Sombrero2:checked ~ #ImagenSombrero2 {display:block; z-index: -1;}
+
+#Sombrero3 {width: 0px;}
+#ImagenSombrero3 {display:none; width: 150px;  margin-top: -380px; margin-left: 135px; transform: scaleX(-1); float: left;}
+#Sombrero3:checked ~ #ImagenSombrero3 {display:block; z-index: -1;}
+
+#Sombrero4 {width: 0px;}
+#ImagenSombrero4 {display:none; width: 150px;  margin-top: -385px; margin-left: 120px; transform: scaleX(-1); float: left; transform: rotate(15%);}
+#Sombrero4:checked ~ #ImagenSombrero4 {display:block; z-index: -1;}
+
+#Sombrero5 {width: 0px;}
+#ImagenSombrero5 {display:none; width: 100px;  margin-top: -400px; margin-left: 150px; transform: scaleX(-1); float: left;}
+#Sombrero5:checked ~ #ImagenSombrero5 {display:block; z-index: -1;}
+
+#XS {width: 0px;}
+
+/*Bigotes*/
+#Bigotes > h2 {float: left;  margin-top: 10px;}
+#Bigotes > li {list-style: none; display:inline; padding-left: 40px; margin-top: 20px;}
+
+#Bigote1 {width: 0px;}
+#ImagenBigote1 {display:none; width: 100px;  margin-top: -300px; margin-left: 240px; transform: scaleX(-1); float: left;}
+#Bigote1:checked ~ #ImagenBigote1 {display:block; z-index: -1;}
+
+#Bigote2 {width: 0px;}
+#ImagenBigote2 {display:none; width: 80px;  margin-top: -290px; margin-left: 250px; transform: scaleX(-1); float: left;}
+#Bigote2:checked ~ #ImagenBigote2 {display:block; z-index: -1;}
+
+#Bigote3 {width: 0px;}
+#ImagenBigote3 {display:none; width: 90px;  margin-top: -270px; margin-left: 245px; transform: scaleX(-1); float: left;}
+#Bigote3:checked ~ #ImagenBigote3 {display:block; z-index: -1;}
+
+#Bigote4 {width: 0px;}
+#ImagenBigote4 {display:none; width: 80px;  margin-top: -270px; margin-left: 240px; transform: scaleX(-1); float: left;}
+#Bigote4:checked ~ #ImagenBigote4 {display:block; z-index: -1;}
+
+#Bigote5 {width: 0px;}
+#ImagenBigote5 {display:none; width: 100px;  margin-top: -240px; margin-left: 225px; transform: scaleX(-1); float: left;}
+#Bigote5:checked ~ #ImagenBigote5 {display:block; z-index: -1;}
+
+#Bigote6 {width: 0px;}
+#ImagenBigote6 {display:none; width: 100px;  margin-top: -280px; margin-left: 240px; transform: scaleX(-1); float: left;}
+#Bigote6:checked ~ #ImagenBigote6 {display:block; z-index: -1;}
+
+#XB {width: 0px;}
+
+/*Armas*/
+#Armas > h2 {float: left;  margin-top: 10px; margin-right: -12px;}
+#Armas > li {list-style: none; display:inline; padding-left: 40px; margin-top: 20px;}
+
+#Arma1 {width: 0px;}
+#ImagenArma1 {display:none; width: 150px;  margin-top: -200px; margin-left: 235px; transform: scaleX(-1); float: left;}
+#Arma1:checked ~ #ImagenArma1 {display:block; z-index: -1;}
+
+#Arma2 {width: 0px;}
+#ImagenArma2 {display:none; width: 100px;  margin-top: -130px; margin-left: 145px; transform: scaleX(-1); float: left;}
+#Arma2:checked ~ #ImagenArma2 {display:block; z-index: -1;}
+
+#Arma3 {width: 0px;}
+#ImagenArma3 {display:none; width: 300px;  margin-top: -250px; margin-left: 60px; transform: scaleX(-1); float: left;}
+#Arma3:checked ~ #ImagenArma3 {display:block; z-index: -1;}
+
+#Arma4 {width: 0px;}
+#ImagenArma4 {display:none; width: 350px;  margin-top: -240px; margin-left: 75px; transform: scaleX(-1); float: left;}
+#Arma4:checked ~ #ImagenArma4 {display:block; z-index: -1;}
+
+#Arma5 {width: 0px;}
+#ImagenArma5 {display:none; width: 100px;  margin-top: -130px; margin-left: 220px; transform: scaleX(-1); float: left;}
+#Arma5:checked ~ #ImagenArma5 {display:block; z-index: -1;}
+
+#Arma6 {width: 0px;}
+#ImagenArma6 {display:none; width: 100px;  margin-top: -130px; margin-left: 220px; transform: scaleX(-1); float: left;}
+#Arma6:checked ~ #ImagenArma6 {display:block; z-index: -1;}
+
+#XA {width: 0px;}
+
+/*Complemento*/
+#Complemento > h2 {float: left;  margin-top: 10px; margin-right: -25px;}
+#Complemento > li {list-style: none; display:inline; padding-left: 40px; margin-top: 20px;}
+
+#Complemento1 {width: 0px;}
+#ImagenComplemento1 {display:none; width: 100px;  margin-top: -300px; margin-left: 260px; transform: scaleX(-1); float: left;}
+#Complemento1:checked ~ #ImagenComplemento1 {display:block; z-index: -1;}
+
+#Complemento2 {width: 0px;}
+#ImagenComplemento2 {display:none; width: 220px;  margin-top: -330px; margin-left: 80px; transform: scaleX(-1); float: left;}
+#Complemento2:checked ~ #ImagenComplemento2 {display:block; z-index: -1;}
+
+#Complemento3 {width: 0px;}
+#ImagenComplemento3 {display:none; width: 190px;  margin-top: -87px; margin-left: 80px; transform: scaleX(-1); float: left;}
+#Complemento3:checked ~ #ImagenComplemento3 {display:block; z-index: -1;}
+
+#Complemento4 {width: 0px;}
+#ImagenComplemento4 {display:none; width: 340px;  margin-top: -346px; margin-left: 1px; transform: scaleX(-1); float: left;}
+#Complemento4:checked ~ #ImagenComplemento4 {display:block; z-index: -1;}
+
+#Complemento5 {width: 0px;}
+#ImagenComplemento5 {display:none; width: 300px;  margin-top: -430px; margin-left: -110px; transform: scaleX(-1); float: left;}
+#Complemento5:checked ~ #ImagenComplemento5 {display:block; z-index: -1;}
+
+#Complemento6 {width: 0px;}
+#ImagenComplemento6 {display:none; width: 300px;  margin-top: -430px; margin-left: 110px; transform: scaleX(-1); float: left;}
+#Complemento6:checked ~ #ImagenComplemento6 {display:block; z-index: -1;}
+
+#Complemento7 {width: 0px;}
+#ImagenComplemento7 {display:none; width: 80px;  margin-top: -137px; margin-left: 2px; transform: scaleX(-1); float: left;}
+#Complemento7:checked ~ #ImagenComplemento7 {display:block; z-index: -1;}
+
+#XC {width: 0px;}
+
+@media only screen and (max-width: 1300px) {
+    #Capibara {
+        margin: 0 auto; margin-top: 20px;
+    }
+    #Complementos{
+        margin: 50px 150px 10px 00px; width: 850px;
+    }
+    footer {margin-top: 10px;}
+}
+
+@media only screen and (min-width: 1700px) and (max-width: 2000px)  {
+    #Complementos > ul > h2 {margin-left: 150px;}
+}
+
+@media only screen and (min-width: 2000px) {
+    #Complementos > ul > h2 {margin-left: 200px;}
+}
+
+/***************************************************************************************************************************/
+/*ESTILISMO*/
+/***************************************************************************************************************************/
+
+/***************************************************************************************************************************/
+/*ASTRONOMIA*/
+/***************************************************************************************************************************/
+#SectionAstronomia {background: #0d0d1d; width: auto; padding: 30px; color: white;}
+#Constelacion {width: 700px; position:absolute; left: 30px;}
+#TituloAstronomia {position:absolute; left: 870px; top: 150px; font-size: 35px;}
+#HistoriaAstronomia {position:absolute; left: 750px; top: 75px; width: 500px; font-size: 22px;}
+#BotonAtras > img {height: 50px;}
+#BotonAtras {position:absolute; left: 500px; top: 20px;}
+
+.CapibaraAstronomo {height: 400px; position:absolute; left: 190px; top: 10px;}
+
+h2 {margin-left: 45px; margin-top: 50px;}
+p {margin-left: 45px; margin-top: 210px; width: 200px; text-align: center;}
+
+#Constelacion1 {width: 0px;}
+#BotonConstelacion1 > img {width: 150px;}
+#BotonConstelacion1 {position:absolute; left: 550px; top: 210px; z-index: 1;}
+
+#DivConstelacion1 {display:none; width: 570px; top: 170px; left: 750px; position:absolute; background-color: #0b1430; height: 405px;} 
+#Constelacion1:checked ~ #DivConstelacion1 {display: block;}
+
+#ImagenConstelacion1 {height: 150px; position:absolute; left: 55px; top: 110px;}
+
+#Constelacion2 {width: 0px;}
+#BotonConstelacion2 > img {width: 200px;}
+#BotonConstelacion2 {position:absolute; left: 420px; top: 360px; z-index: 1;}
+
+#DivConstelacion2 {display:none; width: 570px; top: 170px; left: 750px; position:absolute; background-color: #0b1430; height: 405px;} 
+#Constelacion2:checked ~ #DivConstelacion2 {display: block;}
+
+#ImagenConstelacion2 {height: 150px; position:absolute; left: 55px; top: 110px;}
+
+#Constelacion3 {width: 0px;}
+#BotonConstelacion3 > img {width: 200px;}
+#BotonConstelacion3 {position:absolute; left: 190px; top: 190px; z-index: 1;}
+
+#DivConstelacion3 {display:none; width: 570px; top: 170px; left: 750px; position:absolute; background-color: #0b1430; height: 405px;} 
+#Constelacion3:checked ~ #DivConstelacion3 {display: block;}
+#DivConstelacion3 > h2 { margin-left: 90px;}
+#ImagenConstelacion3 {height: 150px; position:absolute; left: 55px; top: 110px;}
+
+#Constelacion4 {width: 0px;}
+#BotonConstelacion4 > img {width: 100px;}
+#BotonConstelacion4 {position:absolute; left: 110px; top: 350px; z-index: 1;}
+
+#DivConstelacion4 {display:none; width: 570px; top: 170px; left: 750px; position:absolute; background-color: #0b1430; height: 405px;} 
+#Constelacion4:checked ~ #DivConstelacion4 {display: block;}
+#DivConstelacion4 > h2 { margin-left: 25px;}
+#ImagenConstelacion4 {height: 150px; position:absolute; left: 115px; top: 110px;}
+
+/***************************************************************************************************************************/
+/*ASTRONOMIA*/
+/***************************************************************************************************************************/
+
+/***************************************************************************************************************************/
+/*AUDIOVISUAL*/
+/***************************************************************************************************************************/
+iframe {position: absolute; left: 7px; width: 750px; height: 420px;}
+#Foco1 {height: 150px; position: absolute; left: 10px; top: 115px;}
+#Foco2 {height: 150px; position: absolute; left: 600px; top: 115px; transform: scaleX(-1);}
+#SectionAudioVisual { background-image: url(../IMG/FondoAudioVisual.png); height: 424px; margin-left: 750px; background-size: cover; width: 600px;}
+#CapibaraDirector {height: 450px; position: absolute; left: 730px; top: 120px;}
+/***************************************************************************************************************************/
+/*AUDIOVISUAL*/
+/***************************************************************************************************************************/
+
+/***************************************************************************************************************************/
+/*ECONOMIA*/
+/***************************************************************************************************************************/
+#SectionEconomia { margin-top: -45px; }
+#Felicidades { background-image: url(../IMG/EconomiaFondo.gif); background-repeat: repeat; position: relative; margin: auto; height: 600px;}
+#Felicidades > h1 {font-size: 50px; font-family: fantasy; text-align: center; padding-top: 20px; }
+#Felicidades > h2 {font-size: 40px; font-family: fantasy; text-align: center; margin-top: -30px; margin-left: 5px;}
+
+#CapibaraEconomia {position: absolute; left: 0; right: 0; margin: auto; height: 400px;}
+#Gorro {position: absolute; left: 100; right: 0; top: 95px; margin: auto; height: 150px;}
+#Guirnalda {position: absolute; left: 50; right: 0; top: 370px; margin: auto; height: 250px;}
+#Matasuegras {position: absolute; left: 370px; right: 0; top: 330px; margin: auto; height: 100px;}
+
+#Tarjeta {border: solid gray; margin-top: 10px; border-radius: 30px; height: 250px;}
+#Tarjeta > h2 {margin-top: 30px; margin-bottom: 30px;}
+#Tarjeta > form {margin-left: 40px;}
+#Tarjeta > form > input {background-color: rgb(187, 187, 187); border-radius: 5px; height: 45px; color: rgb(109, 109, 109); border: #a1a1a1; margin-right: 10px; width: 250px; margin-bottom: 20px;}
+#Tarjeta > form > select {background-color: rgb(187, 187, 187); border-radius: 5px; height: 40px; color: rgb(109, 109, 109); border: #a1a1a1;  margin-right: 10px;}
+#Tarjeta > form > #cobrar {margin-left: 115px; padding: 15px 25px; font-size: 24px; text-align: center; cursor: pointer; outline: none; color: #fff; background-color: #04AA6D; border: none; border-radius: 15px; box-shadow: 0 9px #999; height: 60px;}
+#Tarjeta > form > #cobrar:hover {background-color: #3e8e41}
+#Tarjeta > form > #cobrar:active {background-color: #3e8e41; box-shadow: 0 5px #666; transform: translateY(4px);}
+#Tarjeta > form > #NumTarjeta {width: 325px;}
+#Tarjeta > img {height: 50px; margin-top: -160px; margin-left: 950px;}
+/***************************************************************************************************************************/
+/*ECONOMIA*/
+/***************************************************************************************************************************/
+
+
+/***************************************************************************************************************************/
+/*INICIO*/
+/***************************************************************************************************************************/
+aside {width: 300px; position: absolute; left: 1000px; top: 180px; }
+#Spotify {width: 320px; height: 740px; margin-left: 0;}
+
+section > a > article {width: 530px; margin-top: 35px; border: 3px solid #78746c; border-radius: 30px;}
+
+#InicioAstronomia {width: 970px; height: 300px; background-color: #101434; background-image: url(../IMG/Constelacion.jpeg);}
+#InicioAstronomia > h2 {color: white; font-size: 50; float: left; text-align: center; width: 550px; padding-top: 10px;}
+#InicioCapibaraAstronomo {width: 300px; float: right; margin-right: 50px;}
+
+#InicioAudioVisual {background-color: #696666; height: 400px; width: 390PX;}
+#InicioAudioVisual > h2 {color: white; font-size: 27; float: left; text-align: center; width: 450px; margin-left: -30PX;}
+#InicioCapibaraDirector {width: 400px; float: left; transform: scaleX(-1); margin-top: -30px; margin-left: -10px;}
+
+#InicioEstilismo {position: absolute; top: 485px; left: 430px; height: 395px; width: 545px; background-image: url(../IMG/EstilismoFondo.png);}
+#InicioEstilismo > h2 {color: black; font-size: 45; float: left; text-align: center; width: 450px; margin-left: 45px; padding-top: 95px;}
+
+
+#InicioCiencia {float: left; width: 585px; height: 350px; background-image: url(../IMG/FondoCienciaInicio.jpg); background-size: cover;}
+#InicioCapibaraCientifico {width: 300px; position: absolute; top: 970px; left: 300px;}
+#InicioCiencia > h2 {color: black; font-size: 40; float: left; text-align: center; width: 450px; margin-left: 30px; margin-top: 80px; width: 250px; background-color: white; border-radius: 30px; padding: 20px;}
+#InicioPocion {width: 50px; float: left; margin-top: 160px; transform: scaleX(1);}
+
+
+#InicioArte {position: absolute; top: 920px; right: 20px; height: 350px; width: 700px; background-color: #a7a6a5;}
+#InicioArte > h2 {color: white; font-size: 45; float: left; text-align: center; width: 450px; margin-left: 130px; }
+
+#InicioObra1 {width: 150px; position: absolute; right: 495px; top: 170px;}
+#InicioObra2 {width: 200px; position: absolute; right: 265px; top: 140px;}
+#InicioObra3 {width: 180px; position: absolute; right: 60px; top: 155px;}
+
+
+
+
+
+#InicioEconomia {width: 1315px; height: 200px; background-image: url(../IMG/EconomiaFondo.gif); margin-top: 420px; margin-bottom: -150px;}
+#InicioEconomia > h2 {color: black; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; font-size: 65; float: right; text-align: center; width: 600px; margin-right: 350px; padding-top: 10PX;}
+#InicioCapibaraEconomia1 {width: 200px; margin-left: 60px;}
+#InicioCapibaraEconomia2 {width: 200px; transform: scaleX(-1); margin-top: -200px; margin-left: 1050px;}
+/***************************************************************************************************************************/
+/*INICIO*/
+/***************************************************************************************************************************/
+
+
+/***************************************************************************************************************************/
+/*CIENCIA*/
+/***************************************************************************************************************************/
+#CapibaraCientifico {width: 580px; height: 425px; position: absolute; left: 8px; background-image: url(../IMG/FondoCiencia.jpg); top: 150px; background-size: cover;}
+#ImagenCapibaraCientifico {width: 350px; transform: scaleX(-1); margin-left: 150px; margin-top: 50px;}
+#ImagenPocion {width: 70px; margin-left: 400px; margin-top: -220px; transform: scaleX(-1);}
+
+#SectionCiencia > article > iframe {position: absolute; left: 585px; top: 150px;}
+
+#Humo {width: 100px; position: absolute; left: 430px; top: 170px; transform: scaleX(-1);}
+.PocionCapibara {width: 50px; position: absolute; left: 420px; top: 240px;}
+
+#BotonesPociones {width: 1320px; margin-bottom: 50px; height: 150px; background-color: #c8f4fc; border: #3b3ccb solid 7px; margin-top: -7px;}
+#BotonesPociones > input {width: 0px;}
+
+.BotonPocion > img {width: 70px; padding-top: 15px; margin-left: 70px; padding-right: 25px;}
+
+#PocionCapibara2, #PocionCapibara3, #PocionCapibara4, #PocionCapibara5, #PocionCapibara6, #PocionCapibara7 {display: none;}
+
+#Pocion1:checked ~ #PocionCapibara1 {display: block;} 
+#Pocion2:checked ~ #PocionCapibara2 {display: block;}
+#Pocion3:checked ~ #PocionCapibara3 {display: block;}
+#Pocion4:checked ~ #PocionCapibara4 {display: block;}
+#Pocion5:checked ~ #PocionCapibara5 {display: block;}
+#Pocion6:checked ~ #PocionCapibara6 {display: block;}
+#Pocion7:checked ~ #PocionCapibara7 {display: block;}
+/***************************************************************************************************************************/
+/*CIENCIA*/
+/***************************************************************************************************************************/
+
+#SectionArte:hover {cursor: url("../IMG/Pincel.png"), auto;}
+
+#CapibaraPintor {width: 600px; transform: scaleX(-1);}
+
+#Obra1 {width: 450px; position: absolute; left: -520px; top: -60px;}
+#Obra2 {width: 450px; position: absolute; left: -520px; top: -70px; display: none;}
+#Obra3 {width: 450px; position: absolute; left: -520px; top: -70px; display: none;}
+
+#Opciones > input {width: 0;}
+#Opciones {position: absolute; left: 1150px; width: 200px; top: 180px;}
+.BotonObra > img {width: 120px;}
+
+#Obra1Opcion:checked ~ #Obra1 {display: block;}
+#Obra2Opcion:checked ~ #Obra2 {display: block;} #Obra2Opcion:checked ~ #Obra1 {display: none;}
+#Obra3Opcion:checked ~ #Obra3 {display: block;} #Obra3Opcion:checked ~ #Obra1 {display: none;}
