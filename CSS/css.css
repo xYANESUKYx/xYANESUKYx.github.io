@@ -44,14 +44,14 @@ footer > p {font-size: 13px;}
 /***************************************************************************************************************************/
 
 /*CAPIBARA*/
-#SectionEstilismo {background-color: #d8fcfc;}
-#Capibara {background-color: #f1efed; border: solid #f7c4d2; margin: 20px 100px 10px 40px; width: 350px; height: 420px; background-image: url(../IMG/EstilismoFondo1.png);}
+#SectionEstilismo {background-color: #d8fcfc; margin: 0;}
+#Capibara {background-color: #f1efed; border: solid #f7c4d2; position: absolute; top: 165px; left: 40px; width: 350px; height: 420px; background-image: url(../IMG/EstilismoFondo1.png);}
 #ImagenCapibara { width: 100%; margin: 0 auto; margin-top: 30px; transform: scaleX(-1); z-index: 1;}
 
-#Complementos {width: 65%; background-color: #f1efed; padding-top: 20px; border: solid #f7c4d2; margin: -435px 50px 10px 50px; height: 400px; float: right; background: url(../IMG/EstilismoFondo1.png); background-size: 3000px;}
+#Complementos {background-color: #f1efed; padding-top: 20px; border: solid #f7c4d2; position: absolute; left: 430px; top: 165; width: 870px; height: 400px; float: right; background: url(../IMG/EstilismoFondo1.png); background-size: 3000px;}
 
 /*Sombreros*/
-#Sombreros > h2 {float: left; margin-top: 10px;}
+#Sombreros > h2 {float: left; margin-top: 10px; margin-left: 0px;}
 #Sombreros > li {list-style: none; display:inline; padding-left: 40px; margin-top: 20px;}
 
 #Sombrero1 {width: 0px;}
@@ -77,7 +77,7 @@ footer > p {font-size: 13px;}
 #XS {width: 0px;}
 
 /*Bigotes*/
-#Bigotes > h2 {float: left;  margin-top: 10px;}
+#Bigotes > h2 {float: left;  margin-top: 10px; margin-left: 0px;}
 #Bigotes > li {list-style: none; display:inline; padding-left: 40px; margin-top: 20px;}
 
 #Bigote1 {width: 0px;}
@@ -107,7 +107,7 @@ footer > p {font-size: 13px;}
 #XB {width: 0px;}
 
 /*Armas*/
-#Armas > h2 {float: left;  margin-top: 10px; margin-right: -12px;}
+#Armas > h2 {float: left;  margin-top: 10px; margin-right: -12px; margin-left: 0px;}
 #Armas > li {list-style: none; display:inline; padding-left: 40px; margin-top: 20px;}
 
 #Arma1 {width: 0px;}
@@ -137,7 +137,7 @@ footer > p {font-size: 13px;}
 #XA {width: 0px;}
 
 /*Complemento*/
-#Complemento > h2 {float: left;  margin-top: 10px; margin-right: -25px;}
+#Complemento > h2 {float: left;  margin-top: 10px; margin-right: -25px; margin-left: 0px;}
 #Complemento > li {list-style: none; display:inline; padding-left: 40px; margin-top: 20px;}
 
 #Complemento1 {width: 0px;}
