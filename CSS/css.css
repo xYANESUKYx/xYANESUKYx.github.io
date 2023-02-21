@@ -170,24 +170,6 @@ footer > p {font-size: 13px;}
 
 #XC {width: 0px;}
 
-@media only screen and (max-width: 1300px) {
-    #Capibara {
-        margin: 0 auto; margin-top: 20px;
-    }
-    #Complementos{
-        margin: 50px 150px 10px 00px; width: 850px;
-    }
-    footer {margin-top: 10px;}
-}
-
-@media only screen and (min-width: 1700px) and (max-width: 2000px)  {
-    #Complementos > ul > h2 {margin-left: 150px;}
-}
-
-@media only screen and (min-width: 2000px) {
-    #Complementos > ul > h2 {margin-left: 200px;}
-}
-
 /***************************************************************************************************************************/
 /*ESTILISMO*/
 /***************************************************************************************************************************/
