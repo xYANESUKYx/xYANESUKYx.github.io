@@ -50,6 +50,8 @@ footer > p {font-size: 13px;}
 
 #Complementos {background-color: #f1efed; padding-top: 20px; border: solid #f7c4d2; position: absolute; left: 430px; top: 165; width: 870px; height: 400px; float: right; background: url(../IMG/EstilismoFondo1.png); background-size: 3000px;}
 
+#Complementos > ul > li > label > img:hover {opacity: .3;}
+
 /*Sombreros*/
 #Sombreros > h2 {float: left; margin-top: 10px; margin-left: 0px;}
 #Sombreros > li {list-style: none; display:inline; padding-left: 40px; margin-top: 20px;}
