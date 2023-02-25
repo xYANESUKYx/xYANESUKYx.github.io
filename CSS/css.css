@@ -192,34 +192,38 @@ p {margin-left: 45px; margin-top: 210px; width: 200px; text-align: center;}
 #Constelacion1 {width: 0px;}
 #BotonConstelacion1 > img {width: 150px;}
 #BotonConstelacion1 {position:absolute; left: 550px; top: 210px; z-index: 1;}
- #BotonConstelacion1 > img:hover {opacity: .6; width: 170px; margin-left: -10px; margin-top: -5px;}
+#BotonConstelacion1 > img:hover {opacity: .6; width: 170px; margin-left: -10px; margin-top: -5px;}
 
 #DivConstelacion1 {display:none; width: 570px; top: 170px; left: 750px; position:absolute; background-color: #0b1430; height: 405px;} 
 #Constelacion1:checked ~ #DivConstelacion1 {display: block;}
-
 #ImagenConstelacion1 {height: 150px; position:absolute; left: 55px; top: 110px;}
+
 
 #Constelacion2 {width: 0px;}
 #BotonConstelacion2 > img {width: 200px;}
 #BotonConstelacion2 {position:absolute; left: 420px; top: 360px; z-index: 1;}
+#BotonConstelacion2 > img:hover {opacity: .6; width: 220px; margin-left: -10px; margin-top: -5px;}
 
 #DivConstelacion2 {display:none; width: 570px; top: 170px; left: 750px; position:absolute; background-color: #0b1430; height: 405px;} 
 #Constelacion2:checked ~ #DivConstelacion2 {display: block;}
-
 #ImagenConstelacion2 {height: 150px; position:absolute; left: 55px; top: 110px;}
+
 
 #Constelacion3 {width: 0px;}
 #BotonConstelacion3 > img {width: 200px;}
 #BotonConstelacion3 {position:absolute; left: 190px; top: 190px; z-index: 1;}
+#BotonConstelacion3 > img:hover {opacity: .6; width: 220px; margin-left: -10px; margin-top: -5px;}
 
 #DivConstelacion3 {display:none; width: 570px; top: 170px; left: 750px; position:absolute; background-color: #0b1430; height: 405px;} 
 #Constelacion3:checked ~ #DivConstelacion3 {display: block;}
 #DivConstelacion3 > h2 { margin-left: 90px;}
 #ImagenConstelacion3 {height: 150px; position:absolute; left: 55px; top: 110px;}
 
+
 #Constelacion4 {width: 0px;}
 #BotonConstelacion4 > img {width: 100px;}
 #BotonConstelacion4 {position:absolute; left: 110px; top: 350px; z-index: 1;}
+#BotonConstelacion4 > img:hover {opacity: .6; width: 120px; margin-left: -10px; margin-top: -5px;}
 
 #DivConstelacion4 {display:none; width: 570px; top: 170px; left: 750px; position:absolute; background-color: #0b1430; height: 405px;} 
 #Constelacion4:checked ~ #DivConstelacion4 {display: block;}
