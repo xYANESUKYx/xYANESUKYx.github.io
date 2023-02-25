@@ -192,6 +192,7 @@ p {margin-left: 45px; margin-top: 210px; width: 200px; text-align: center;}
 #Constelacion1 {width: 0px;}
 #BotonConstelacion1 > img {width: 150px;}
 #BotonConstelacion1 {position:absolute; left: 550px; top: 210px; z-index: 1;}
+ #BotonConstelacion1 > img:hover {opacity: .6; width: 170px; margin-left: -10px; margin-top: -5px;}
 
 #DivConstelacion1 {display:none; width: 570px; top: 170px; left: 750px; position:absolute; background-color: #0b1430; height: 405px;} 
 #Constelacion1:checked ~ #DivConstelacion1 {display: block;}
