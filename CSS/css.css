@@ -329,6 +329,8 @@ section > a > article {width: 530px; margin-top: 35px; border: 3px solid #78746c
 
 #PocionCapibara2, #PocionCapibara3, #PocionCapibara4, #PocionCapibara5, #PocionCapibara6, #PocionCapibara7 {display: none;}
 
+#BotonesPociones > label > img:hover {opacity: .5;}
+
 #Pocion1:checked ~ #PocionCapibara1 {display: block;} 
 #Pocion2:checked ~ #PocionCapibara2 {display: block;}
 #Pocion3:checked ~ #PocionCapibara3 {display: block;}
