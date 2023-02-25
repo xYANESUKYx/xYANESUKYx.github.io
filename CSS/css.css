@@ -284,23 +284,31 @@ aside {width: 300px; position: absolute; left: 1000px; top: 180px; }
 
 section > a > article {width: 530px; margin-top: 35px; border: 3px solid #78746c; border-radius: 30px;}
 
+#InicioAstronomia:hover {opacity: .9;}
 #InicioAstronomia {width: 970px; height: 300px; background-color: #101434; background-image: url(../IMG/Constelacion.jpeg);}
 #InicioAstronomia > h2 {color: white; font-size: 50; float: left; text-align: center; width: 550px; padding-top: 10px;}
 #InicioCapibaraAstronomo {width: 300px; float: right; margin-right: 50px;}
 
+
+#InicioAudioVisual:hover {opacity: .8;}
 #InicioAudioVisual {background-color: #696666; height: 400px; width: 390PX;}
 #InicioAudioVisual > h2 {color: white; font-size: 27; float: left; text-align: center; width: 450px; margin-left: -30PX;}
 #InicioCapibaraDirector {width: 400px; float: left; transform: scaleX(-1); margin-top: -30px; margin-left: -10px;}
 
+
+#InicioEstilismo:hover {opacity: .8;}
 #InicioEstilismo {position: absolute; top: 485px; left: 430px; height: 395px; width: 545px; background-image: url(../IMG/EstilismoFondo.png);}
 #InicioEstilismo > h2 {color: black; font-size: 45; float: left; text-align: center; width: 450px; margin-left: 45px; padding-top: 95px;}
 
 
+#InicioCiencia:hover {opacity: .8;}
 #InicioCiencia {float: left; width: 585px; height: 350px; background-image: url(../IMG/FondoCienciaInicio.jpg); background-size: cover;}
 #InicioCapibaraCientifico {width: 300px; position: absolute; top: 970px; left: 300px;}
 #InicioCiencia > h2 {color: black; font-size: 40; float: left; text-align: center; width: 450px; margin-left: 30px; margin-top: 80px; width: 250px; background-color: white; border-radius: 30px; padding: 20px;}
 #InicioPocion {width: 50px; float: left; margin-top: 160px; transform: scaleX(1);}
 
+
+#InicioArte:hover {opacity: .8;}
 #InicioArte {position: absolute; top: 920px; left: 625px; height: 350px; width: 700px; background-color: #a7a6a5;}
 #InicioArte > h2 {color: white; font-size: 45; float: left; text-align: center; width: 450px; margin-left: 130px; }
 
@@ -308,6 +316,8 @@ section > a > article {width: 530px; margin-top: 35px; border: 3px solid #78746c
 #InicioObra2 {width: 200px; position: absolute; left: 242px; top: 140px;}
 #InicioObra3 {width: 180px; position: absolute; left: 470px; top: 155px;}
 
+
+#InicioEconomia:hover {opacity: .8;}
 #InicioEconomia {width: 1315px; height: 200px; background-image: url(../IMG/EconomiaFondo.gif); margin-top: 420px; margin-bottom: -150px;}
 #InicioEconomia > h2 {color: black; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; font-size: 65; float: right; text-align: center; width: 600px; margin-right: 350px; padding-top: 10PX;}
 #InicioCapibaraEconomia1 {width: 200px; margin-left: 60px;}
