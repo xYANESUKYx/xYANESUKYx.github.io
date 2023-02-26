@@ -185,6 +185,7 @@ footer > p {font-size: 13px;}
 #HistoriaAstronomia {position:absolute; left: 750px; top: 75px; width: 500px; font-size: 22px;}
 #BotonAtras > img {height: 50px;}
 #BotonAtras {position:absolute; left: 500px; top: 20px;}
+#BotonAtras > img:hover {height: 55px; margin-left: -2px; margin-top: -2px; opacity: .5;}
 
 .CapibaraAstronomo {height: 400px; position:absolute; left: 190px; top: 10px;}
 
