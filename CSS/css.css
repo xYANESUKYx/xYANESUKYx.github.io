@@ -45,7 +45,7 @@ footer > p {font-size: 13px;}
 /***************************************************************************************************************************/
 
 /*CAPIBARA*/
-#SectionEstilismo {background-color: #d8fcfc; margin: 0;}
+#SectionEstilismo {background-color: #d8fcfc; margin: 0; width: 1333px; height: 500px;}
 #Capibara {background-color: #f1efed; border: solid #f7c4d2; position: absolute; top: 165px; left: 40px; width: 350px; height: 420px; background-image: url(../IMG/EstilismoFondo1.png);}
 #ImagenCapibara { width: 100%; margin: 0 auto; margin-top: 30px; transform: scaleX(-1); z-index: 1;}
 
