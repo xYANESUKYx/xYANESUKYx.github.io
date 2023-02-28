@@ -2,7 +2,8 @@
 /*CABECERA*/
 /***************************************************************************************************************************/
 header {background-color: #a7a6a5; margin: 10px 0px -25px 0px; height: 115px; width: 1333px}
-header > h1 {color: black; padding-top: 15px; margin-left: -5px; text-align: center; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; font-size: 50PX;}
+#Cabecera {text-decoration: none;}
+#CapiNews {color: black; padding-top: 15px; margin-left: -5px; text-align: center; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; font-size: 50PX;}
 #SiluetaCapibara1 {width: 75px; position: absolute; left: 30; top: 19px; transform: scaleX(-1);}
 #SiluetaCapibara2 {width: 75px; position: absolute; left: 1245px; top: 19px;}
 /***************************************************************************************************************************/
