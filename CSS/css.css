@@ -180,7 +180,7 @@ footer > p {font-size: 13px;}
 /***************************************************************************************************************************/
 /*ASTRONOMIA*/
 /***************************************************************************************************************************/
-#SectionAstronomia {background: #0d0d1d; width: auto; padding: 30px; color: white;}
+#SectionAstronomia {background: #0d0d1d; padding: 30px; color: white; width: 1273px; height: 410px;}
 #Constelacion {width: 700px; position:absolute; left: 30px;}
 #TituloAstronomia {position:absolute; left: 870px; top: 150px; font-size: 35px;}
 #HistoriaAstronomia {position:absolute; left: 750px; top: 75px; width: 500px; font-size: 22px;}
