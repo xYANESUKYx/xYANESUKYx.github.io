@@ -10,17 +10,20 @@ function TocarNota(nota){
     var notasGif = document.getElementById("notas");
     var gotasGif = document.getElementById("gotas");
     var Sonrojo = document.getElementById("Sonrojo");
+    var Corona = document.getElementById("corona");
     var nombreNota = document.getElementById("nombreNota");
 
     notasGif.style.display = "none";
     gotasGif.style.display = "none";
     Sonrojo.style.display = "none";
+    Corona.style.display = "none";
     nombreNota.textContent = " ";
     nombreNota.style.border = "";
 
     notasGif.style.display = "block";
     gotasGif.style.display = "block";
     Sonrojo.style.display = "block";
+    Corona.style.display = "block";
     nombreNota.textContent = nota;
     nombreNota.style.border = "solid";
 }
@@ -32,11 +35,13 @@ function contando(){
         var notasGif = document.getElementById("notas");
         var gotasGif = document.getElementById("gotas");
         var Sonrojo = document.getElementById("Sonrojo");
+        var Corona = document.getElementById("corona");
         var nombreNota = document.getElementById("nombreNota");
 
         notasGif.style.display = "none";
         gotasGif.style.display = "none";
         Sonrojo.style.display = "none";
+        Corona.style.display = "none";
         nombreNota.textContent = " ";
         nombreNota.style.border = "";
     }
