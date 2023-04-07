@@ -3,6 +3,7 @@
         <link rel="stylesheet" href="../CSS/css.css">
         <link rel="icon" href="../IMG/Capibara.png">
         <title>MUSICA</title>
+        <script src="../JS/Script.js"> </script>
     </head>
     <body>
         <header>
@@ -49,54 +50,6 @@
             <button onclick="TocarNota('Si')"><img id="agujeroSi" class="agujeros" src="../IMG/Agujero.png"></button> <audio id="Si"><source src="../MP3/Si.mp3" type="audio/mp3"></audio>
 
         </section>
-
-            <script>
-                var contador = 0; 
-
-                function TocarNota(nota){
-                    contador = 0;
-
-                    let audioNota = document.getElementById(nota);
-                    audioNota.play();
-
-                    var notasGif = document.getElementById("notas");
-                    var gotasGif = document.getElementById("gotas");
-                    var Sonrojo = document.getElementById("Sonrojo");
-                    var nombreNota = document.getElementById("nombreNota");
-
-                    notasGif.style.display = "none";
-                    gotasGif.style.display = "none";
-                    Sonrojo.style.display = "none";
-                    nombreNota.textContent = " ";
-                    nombreNota.style.border = "";
-
-                    notasGif.style.display = "block";
-                    gotasGif.style.display = "block";
-                    Sonrojo.style.display = "block";
-                    nombreNota.textContent = nota;
-                    nombreNota.style.border = "solid";
-                }
-
-                function contando(){
-                    contador++;
-
-                    if(contador == 4){
-                        var notasGif = document.getElementById("notas");
-                        var gotasGif = document.getElementById("gotas");
-                        var Sonrojo = document.getElementById("Sonrojo");
-                        var nombreNota = document.getElementById("nombreNota");
-
-                        notasGif.style.display = "none";
-                        gotasGif.style.display = "none";
-                        Sonrojo.style.display = "none";
-                        nombreNota.textContent = " ";
-                        nombreNota.style.border = "";
-                    }
-                } 
-
-                var cont = setInterval('contando()', 1000);
-
-            </script>
 
         <footer>
             <p id="copyright">© 2023 Yanet López Rodríguez</p>
