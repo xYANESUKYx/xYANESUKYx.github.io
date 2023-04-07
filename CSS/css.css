@@ -15,7 +15,7 @@ header {background-color: #a7a6a5; margin: 10px 0px -25px 0px; height: 115px; wi
 /*MENU DE NAVEGACION*/
 /***************************************************************************************************************************/
 nav {background-color: #303030; margin: 0px 0px -2px 0px; height: 40px;  width: 1333px}
-nav > ul {margin-top: 10px; position: absolute; right: 0; left: 0; align-items: center; width: 1333px; margin-left: 60px;}
+nav > ul {margin-top: 10px; position: absolute; right: 0; left: 0; align-items: center; width: 1333px; margin-left: 25px;}
 nav > ul > a > li {display:inline; border-radius: 100px; padding: 7px; margin-left: 50px; padding-top: 5px; transform: scaleX(2);}
 nav > ul > a {text-decoration: none; color: #FFFFFF;}
 nav > ul > a > li:hover {background-color: #b1ada3;}
@@ -572,4 +572,42 @@ section > a > article {width: 530px; margin-top: 35px; border: 3px solid #78746c
 /***************************************************************************************************************************/
 /*PRESENTACION*/
 /***************************************************************************************************************************/
+/***************************************************************************************************************************/
+/*MUSICA*/
+/***************************************************************************************************************************/
 
+#SectionMusica {border: #0d0d1d solid; height: 430px; width: 1327px; background-image: url(../IMG/Nubes.jpg); background-size: 100%;}
+#SectionMusica:hover {cursor: url("../IMG/dedo.png"), auto;}
+#SectionMusica > button {visibility: hidden;}
+
+#nombreNota {border: black; position: absolute; left: 740px; top: 150px; width: 170px; height: 100px; border-radius: 24em; padding-top: 50px; text-align: center; font-size: 40px;}
+
+
+#partitura {width: 700px; position: absolute; top: 150px;}
+#flautista {width: 550px; position: absolute; left: 785px;}
+#flauta {width: 700px; transform: rotate(21deg) ; position: absolute; top: 320px; left: 240px;}
+
+#notas {width: 150px; position: absolute; transform: rotate(-70deg); top: 300px; left: 50PX; display: none;}
+#gotas {width: 20px; position: absolute; top: 485px; left: 850px; display: none;}
+#Sonrojo {width: 150px; position: absolute; top: 340px; left: 1070px; display: none;}
+
+.agujeros {width: 20px; position: absolute; visibility: visible;}
+
+#agujeroDo {top: 497px; left: 320px;} 
+
+#agujeroRe {top: 494px; left: 379px;}
+
+#agujeroMi {top: 491px; left: 425px;}
+
+#agujeroFa {top: 489px; left: 475px;}
+
+#agujeroSol {top: 487px; left: 525px;}
+
+#agujeroLa {top: 484px; left: 575px;}
+
+#agujeroSi {top: 481px; left: 622px;}
+
+
+/***************************************************************************************************************************/
+/*MUSICA*/
+/***************************************************************************************************************************/
