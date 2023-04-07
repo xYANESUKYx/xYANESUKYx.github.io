@@ -592,6 +592,7 @@ section > a > article {width: 530px; margin-top: 35px; border: 3px solid #78746c
 #Sonrojo {width: 150px; position: absolute; top: 340px; left: 1070px; display: none;}
 
 .agujeros {width: 20px; position: absolute; visibility: visible;}
+.agujeros:hover {filter: invert(80%) drop-shadow(0 0 10px rgb(0, 86, 143));} 
 
 #agujeroDo {top: 497px; left: 320px;} 
 
