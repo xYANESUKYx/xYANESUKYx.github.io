@@ -1,0 +1,106 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="../CSS/css.css">
+        <link rel="icon" href="../IMG/Capibara.png">
+        <title>MUSICA</title>
+    </head>
+    <body>
+        <header>
+            <a id="Cabecera" href="../Index.html">
+                <img id="SiluetaCapibara1" src="../IMG/SiluetaCapibara.png">
+                <h1 id="CapiNews">CAPI NEWS</h1>
+                <img id="SiluetaCapibara2" src="../IMG/SiluetaCapibara.png">
+            </a>
+        </header>
+        <nav>
+            <ul>
+               <a href="../Index.html"><li>Inicio</li></a> 
+               <a href="PRESENTACION-YANET.html"><li>Presentacion</li></a>  
+               <a href="ESTILISMO-YANET.html"><li>Estilismo</li></a> 
+               <a href="ASTRONOMIA-YANET.html"><li>Astronomía</li></a> 
+               <a href="ARTE-YANET.html"><li>Arte</li></a> 
+               <a href="AUDIOVISUAL-YANET.html"><li>Audio Visual</li></a> 
+               <a href="CIENCIAS-YANET.html"><li>Ciencias</li></a> 
+               <a href="ECONOMIA-YANET.html"><li>Economia</li></a> 
+               <a href="MUSICA-YANET.html"><li id="x">Música</li></a> 
+            </ul>
+        </nav>
+        <section id="SectionMusica">
+
+            <img id="partitura" src="../IMG/Partitura.png">
+            <img id="flauta" src="../IMG/Flauta.gif">
+            <img id="flautista" src="../IMG/Flautista.png">
+
+            <img id="notas" src="../IMG/notas.gif"><img id="gotas" src="../IMG/Babas.gif">
+            <img id="Sonrojo" src="../IMG/Sonrojo.png"><h1 id="nombreNota"></h1>
+
+            <button id="botonDo" onclick="TocarNota('Do')"><img id="agujeroDo" class="agujeros" src="../IMG/Agujero.png"></button> <audio id="Do"><source src="../MP3/Do.mp3" type="audio/mp3"></audio>
+
+            <button onclick="TocarNota('Re')"><img id="agujeroRe" class="agujeros" src="../IMG/Agujero.png"></button> <audio id="Re"><source src="../MP3/Re.mp3" type="audio/mp3"></audio>
+
+            <button onclick="TocarNota('Mi')"><img id="agujeroMi" class="agujeros" src="../IMG/Agujero.png"></button> <audio id="Mi"><source src="../MP3/Mi.mp3" type="audio/mp3"></audio>
+
+            <button onclick="TocarNota('Fa')"><img id="agujeroFa" class="agujeros" src="../IMG/Agujero.png"></button> <audio id="Fa"><source src="../MP3/Fa.mp3" type="audio/mp3"></audio>
+
+            <button onclick="TocarNota('Sol')"><img id="agujeroSol" class="agujeros" src="../IMG/Agujero.png"></button> <audio id="Sol"><source src="../MP3/Sol.mp3" type="audio/mp3"></audio>
+
+            <button onclick="TocarNota('La')"><img id="agujeroLa" class="agujeros" src="../IMG/Agujero.png"></button> <audio id="La"><source src="../MP3/La.mp3" type="audio/mp3"></audio>
+
+            <button onclick="TocarNota('Si')"><img id="agujeroSi" class="agujeros" src="../IMG/Agujero.png"></button> <audio id="Si"><source src="../MP3/Si.mp3" type="audio/mp3"></audio>
+
+        </section>
+
+            <script>
+                var contador = 0; 
+
+                function TocarNota(nota){
+                    contador = 0;
+
+                    let audioNota = document.getElementById(nota);
+                    audioNota.play();
+
+                    var notasGif = document.getElementById("notas");
+                    var gotasGif = document.getElementById("gotas");
+                    var Sonrojo = document.getElementById("Sonrojo");
+                    var nombreNota = document.getElementById("nombreNota");
+
+                    notasGif.style.display = "none";
+                    gotasGif.style.display = "none";
+                    Sonrojo.style.display = "none";
+                    nombreNota.textContent = " ";
+                    nombreNota.style.border = "";
+
+                    notasGif.style.display = "block";
+                    gotasGif.style.display = "block";
+                    Sonrojo.style.display = "block";
+                    nombreNota.textContent = nota;
+                    nombreNota.style.border = "solid";
+                }
+
+                function contando(){
+                    contador++;
+
+                    if(contador == 4){
+                        var notasGif = document.getElementById("notas");
+                        var gotasGif = document.getElementById("gotas");
+                        var Sonrojo = document.getElementById("Sonrojo");
+                        var nombreNota = document.getElementById("nombreNota");
+
+                        notasGif.style.display = "none";
+                        gotasGif.style.display = "none";
+                        Sonrojo.style.display = "none";
+                        nombreNota.textContent = " ";
+                        nombreNota.style.border = "";
+                    }
+                } 
+
+                var cont = setInterval('contando()', 1000);
+
+            </script>
+
+        <footer>
+            <p id="copyright">© 2023 Yanet López Rodríguez</p>
+            <p id="Instagram">Ig:@Yanesuky</p>
+        </footer>
+    </body>
+</html>
